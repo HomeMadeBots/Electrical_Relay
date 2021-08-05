@@ -1,0 +1,10 @@
+@startuml
+
+class Relay_Actuator <<Component_Type>>
+{
+  Allows to pilot a relay hardware device.
+  --
+  + Relay_Configuration:E_Relay_Configuration
+}
+
+@enduml

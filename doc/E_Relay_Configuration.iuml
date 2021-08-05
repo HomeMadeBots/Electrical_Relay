@@ -1,0 +1,11 @@
+@startuml
+
+enum E_Relay_Configuration <<Enumerated_Data_Type>>
+{
+  Allows to define a data representing a relay kind.
+  --
+  MONOSTABLE_RELAY_NORMALLY_CLOSED
+  MONOSTABLE_RELAY_NORMALLY_OPEN
+}
+
+@enduml

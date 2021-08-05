@@ -1,0 +1,11 @@
+@startuml
+
+interface Relay_Actuation_Requests <<Client_Server_Interface>>
+{
+  Gathers operations allowing to manage a relay.
+  --
+  {abstract} + Close_Circuit()
+  {abstract} + Open_Circuit()
+}
+
+@enduml
