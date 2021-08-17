@@ -1,0 +1,13 @@
+@startuml
+
+!includeurl https://gist.githubusercontent.com/Arnaud-Bonneuil/c317a7a30bed7d64e2b5b1f558ac00cf/raw/sober.puml
+
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Relay_Actuator/main/doc/E_Relay_Configuration.puml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Relay_Actuator/main/doc/Relay_Actuation_Requests.puml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Relay_Actuator/main/doc/Relay_Actuator.puml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/Discrete_Output.puml
+
+Relay_Actuation_Requests <|..# "Relay_Actuation" Relay_Actuator
+Relay_Actuator "Discrete_Pin" #..> Discrete_Output
+
+@enduml
