@@ -1,0 +1,11 @@
+@startuml
+
+!includeurl https://gist.githubusercontent.com/Arnaud-Bonneuil/c317a7a30bed7d64e2b5b1f558ac00cf/raw/sober.puml
+
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Electrical_Relay/main/doc/Electrical_Relay.puml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/Hardware_IO_Interfaces.puml
+
+Electrical_Relay ..> Hardware_IO_Interfaces
+note on link : required interface
+
+@enduml
