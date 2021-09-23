@@ -1,0 +1,8 @@
+@startuml
+
+package Electrical_Relay [
+  Gathers software elements allowing to manage
+  electrical relays.
+]
+
+@enduml
